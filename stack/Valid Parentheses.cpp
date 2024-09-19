@@ -6,8 +6,8 @@ using namespace std;
 class Solution {
 public:
     bool isValid(string s) {
-        std::stack<char> stk;
-        std::unordered_map<char,char> bracket_pairs = {
+        stack<char> stk;
+        unordered_map<char,char> bracket_pairs = {
             {')', '('},
             {'}', '{'},
             {']', '['}
